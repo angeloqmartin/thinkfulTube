@@ -1,0 +1,51 @@
+
+body {
+    background-color: #F2F2F2;
+} 
+
+/*  */
+.search-form {
+    margin: auto;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.search-form img{
+    width: 15px;
+    height: 15px;
+}
+
+legend {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 1.38em;
+    color: #BA160C;
+    text-align: center;
+    margin: 10px;
+}
+
+/*  */
+#search-bar {
+    margin: 0;
+    border-style: none;
+    height: 30px;
+    width: 83%;
+    padding: 0;
+    
+}
+
+#search-btn {
+    margin:0;
+    padding:0;
+    background-color: azure;
+    height: 28px;
+    width: 28px;
+}
+
+#search-btn img {
+    width: 10px;
+    height: 10px;
+}
+
+/*  */
