@@ -5,7 +5,7 @@ body {
 
 /*  */
 .search-form {
-    margin: auto;
+    margin: 140px auto;
     width: 60%;
     display: flex;
     align-items: center;
@@ -13,26 +13,30 @@ body {
 }
 
 .search-form img{
-    width: 15px;
-    height: 15px;
+    width: 30px;
+    height: 30px;
 }
 
 legend {
     font-family: 'Abril Fatface', cursive;
-    font-size: 1.38em;
+    font-size: 2.5em;
     color: #BA160C;
     text-align: center;
     margin: 10px;
 }
 
 /*  */
+.searchContainer {
+    width: 100%;
+}
+
 #search-bar {
-    margin: 0;
+    display: inline-block;
+    margin: auto;
     border-style: none;
     height: 30px;
-    width: 83%;
+    width: 80%;
     padding: 0;
-    
 }
 
 #search-btn {
@@ -48,4 +52,16 @@ legend {
     height: 10px;
 }
 
-/*  */
+.grid-container {
+    max-width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.grid-items  {
+    margin: auto;
+    width: 220px;
+    height: 150px;
+}
