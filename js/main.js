@@ -33,6 +33,7 @@ function watchSubmit() {
 // renders search results
 function results(data) {
     $.each(data.items, function (i, obj) {
+
         $('.grid-container').append(`
             <img class="grid-items" src="${obj.snippet.thumbnails.high.url}" alt="thumbnail image of searched results">`)
     })

@@ -17,6 +17,10 @@ body {
     height: 30px;
 }
 
+.search-lable {
+    text-align: start;
+}
+
 legend {
     font-family: 'Abril Fatface', cursive;
     font-size: 2.5em;
